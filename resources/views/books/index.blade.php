@@ -37,7 +37,7 @@
                     <td>
                         <ul class="pl-3">
                             @foreach($book->categories as $category)
-                            <li>{{$category->name}}</li>
+                                <li>{{$category->name}}</li>
                             @endforeach
                         </ul>
                     </td>
